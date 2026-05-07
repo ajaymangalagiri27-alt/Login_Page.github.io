@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Website Structure</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 style="text-align: center;">E-commerce</h1>
+       
+    </header>
+
+    <hr>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Main Content: Login Form -->
+    <main>
+        <section>
+            <h2 style="text-align: center;">Account Login</h2>
+            <form action="/submit-login" method="POST" style="text-align: center;">
+                <div>
+                    <label for="user">Username:</label><br>
+                    <input type="text" id="user" name="user" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pass">Password:</label><br>
+                    <input type="password" id="pass" name="pass" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+
+                <br>
+
+                <button type="submit">Log In</button>
+            </form>
+            
+            <p style="text-align: center;">
+                <a href="#" >Forgot password?</a> | 
+                <a href="#">Create an account</a>
+            </p>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer >
+        <p style="text-align: center;">&copy; 2026 My Website Inc. All rights reserved.</p>
+        
+            <p style="text-align: center;"><a href="#">Privacy Policy</a>
+            <p style="text-align: center;" ><a href="#">Terms of Service</a>
+        
+    </footer>
+
+</body>
+</html>
